@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  background-color: #fca6c9;
+  font-family: serif;
+}
+
+main {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+ol {
+  padding: 20px;
+  color: #000000;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+img {
+  width: 40%;
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.title:hover {
+  color: #000000;
+}
+
+p, h4 {
+  color: #ffffff;
+}
+
+h4 {
+  font-size: Roboto;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.message {
+  width: 80%;
+  margin: 0 auto;
+}
