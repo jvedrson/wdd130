@@ -216,7 +216,6 @@ footer a {
 }
 
 footer a:hover {
-  background-color: #f4a261;
   color: white;
 }
 
@@ -230,6 +229,67 @@ footer p a:hover {
 
 footer .social img {
   padding-top: 15px;
+}
+
+/* Page 2: Rivers */
+.river-intro {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 2em;
+  padding: 40px;
+}
+
+.left-intro {
+  text-align: right;
+  align-self: center;
+}
+
+.left-intro > img{
+  padding-right: 10px;  
+}
+
+.right-intro {
+  align-self: center;
+  padding: 1em 2em;
+}
+
+.river-grid {
+  display: grid;
+  gap: 5em;
+}
+
+.filled-card, .empty-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
+  padding: 40px;
+}
+
+.filled-card {
+  background-color: #2a9d8f;
+}
+
+.filled-card img {
+  align-self: center;
+  justify-self: center;
+}
+
+.left-filled-card h2 {
+  margin-bottom: 40px;
+  color: #FFF;
+}
+
+.left-empty-card h2 {
+  margin-bottom: 40px;
+  color: #264653;
+}
+
+.paragraphs {
+  background-color: #f4a261;
+  padding: 25px;
+  line-height: 1.5em;
+  text-align: justify;
+  border-radius: 25px;
 }
 
 @media screen and (max-width: 900px) {
