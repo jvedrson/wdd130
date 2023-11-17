@@ -292,6 +292,85 @@ footer .social img {
   border-radius: 25px;
 }
 
+/* Page 3: Contact Us */
+#feedback {
+  background-color: #f4a261;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  height: 2em;
+  /* make this element invisible until we are ready for it */
+  display: none;
+  font-family: Montserrat, Helvetica, sans-serif;
+  color: #264653;
+}
+
+.moveDown {
+  margin-top: 3em;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  height: 100%;
+}
+
+.form-contact {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 2em;
+}
+
+.form-contact > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-contact>div>label {
+  color: #f4a261;
+  font-family: "Lobster", Helvetica, sans-serif;
+  font-size: 1em;
+  margin-left: 5px;
+}
+
+.form-contact>div>input, .form-contact>div>textarea {
+  border: 1px solid #2a9d8f;
+  border-radius: 10px;
+  font-family: Montserrat, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin: 10px 0px;
+  padding: 10px;
+  color: #264653;
+}
+
+.form-contact>div>input { width: 60%;}
+
+.form-contact > div:last-child {
+  margin-top: 1em;
+}
+
+.form-contact > div > button {
+  background-color: #2a9d8f;
+  border-radius: 10px;
+  border: 1px solid #264653;
+  color: white;
+  line-height: 1.5em;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-contact>div>button:hover {
+  background-color: #264653;
+  border: 1px solid #2a9d8f;
+}
+
+.footer-contact {
+  margin-top: 0px;
+}
+
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
