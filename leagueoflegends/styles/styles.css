@@ -123,6 +123,11 @@ main {
   background-color: var(--primary-color);
   padding: 1em 2em;
   color: var(--accent2-color);
+  border-radius: 30px;
+}
+.btn-blue:hover {
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
 }
 
 .buttons {
@@ -500,6 +505,68 @@ footer a:hover {
 * Championship Page *
 * *
 *****************************************************************/
+.box-presentation {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0;
+}
+.box-presentation .ctr-image-full {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
+.btn-video {
+  align-self: center;
+  font-weight: bold;
+  grid-column: 5/9;
+  grid-row: 4/5;
+  justify-self: center;
+}
+
+.champ-content {
+  padding: 2.5em;
+}
+
+.box-world-content {
+  text-align: justify;
+}
+.box-world-image {
+  margin: 4em 0px;
+}
+
+.box-histo-content p {
+  text-align: justify;
+  margin: 2em 0px;
+}
+
+.box-histo-table {
+  display: flex;
+  padding: 2em;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.table-world {
+  border: 3px solid black;
+  border-spacing: 0px;
+}
+.table-world td {
+  border: 3px solid black;
+  line-height: 1.5em;
+  padding: 1em;
+}
+.table-world td:nth-child(1) {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  font-weight: bold;
+  text-align: start;
+}
+.table-world td:nth-child(2) {
+  background-color: var(--accent2-color);
+  text-align: end;
+}
+.table-world td:nth-child(3) {
+  background-color: var(--accent2-color);
+}
 
 
 /****************************************************************
